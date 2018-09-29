@@ -1,0 +1,289 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+ 
+  background-color: #D8FFF6;
+  
+}
+
+body.scrolled #header {
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+body.scrolled #header:hover {
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  position: fixed;
+  /* border: solid 1px; */
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+  width: 97%;
+  background-color: #7CB2A6;
+  margin: 0;
+}
+
+
+
+
+#signup, #features {
+    position: relative;
+    z-index: 1;
+}
+
+#header {
+  width: 100%;
+}
+
+.nav-item {
+  font-size: 19px;
+  padding-right: 20px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pricing {
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* position: relative; */
+  z-index: 1;
+}
+
+#logo {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  margin-right: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+#signup {
+    position: relative;
+    z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  /* border: solid 1px; */
+  height: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#signupHeader {
+  display: flex;
+  justify-content: center;
+}
+
+#emailInput {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#submitEmail {
+  margin-top: 20px;
+}
+
+#features {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  /* border: solid 1px; */
+  margin-bottom: 100px;
+  /* display: flex; */
+  /* align-content: column; */
+  /* width: 700px; */
+}
+
+#video {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.featureContainer {
+  /* border: dotted 1px; */
+  list-style-type: none;
+  width: 800px;
+  /* height: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.column {
+  /* width: 600px; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.desc-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 80px;
+}
+
+.text {
+  margin: 10px 10px 5px 20px;
+}
+
+/* Pricing VVVVV */
+
+#pricing {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 312px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.prices {
+    width: 312px;
+    height: 310px;
+    border: solid 1px;
+    margin: auto;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-points {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+
+.price-top {
+    font-family: "Playfair Display", serif;
+    width: 100%;
+    background-color: #7CB2A6;
+    margin-bottom: -5px;
+    margin-top: 0;
+    margin-left: auto;
+    text-align: center;
+}
+
+.price-select {
+    height: 39px;
+    width: 99px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.priceLI {
+    padding: 5px;
+}
+/* Pricing ^^^^^ */
+
+/* Footer VVVVVV */
+
+#footer {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 1000px;
+    /* border: solid 1px; */
+    display: flex;
+    flex-direction: column;
+    background-color: #7CB2A6;
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+.footnote {
+    padding-left: 10px;
+
+}
+
+.move-over {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+#footPtag {
+    margin-top: -5px;
+}
+
+
+@media only screen and (max-height: 768px) {
+#features {
+  padding-top: 175px;
+}
+
+#video {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#signup {
+  padding-top: 150px;
+}
+}
+
+@media only screen and (min-height: 769px) {
+  #features {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+
+  
+
+  #video {
+    padding-top: 225px;
+    padding-bottom: 300px;
+  }
+
+  iframe {
+   
+  }
+}

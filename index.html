@@ -6,12 +6,181 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel='stylesheet' href='./style.css' />
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
         <script type='text/javascript' src='./logic.js'></script>
         <title>Document</title>
     </head>
 
     <body>
+
+        <!-- <nav class='navbar' id='header'> -->
+        <ul class='container'>
+            <li id='logo'><a href='#content'>Lorem ipsum</a></li>
+
+            <li class='nav-item'><a href='#features'>Features</a></li>
+            <li class='nav-item'><a href='#video'>How It Works</a></li>
+            <li class='nav-item pricing'><a href='#pricing'>Pricing</a></li>
+        </ul>
+        <!-- </nav> -->
+
+
+        <div class='content' id='content'>
+
+
+            <div id='signup'>
+
+                <h2 id='signupHeader'>Lorem ipsum Lorem ipsum</h2>
+
+                <form name='userEmail' action='https://www.freecodecamp.org/email-submit' id='emailInput' method='POST' onsubmit="return validateEmail()">
+                    <div class='row'>
+
+                        <input name='email-submit' id='email email-label' type='email' required placeholder="Enter your Email">
+                    </div>
+
+                    <button type='submit'  id='submitEmail'>Get Started</button>
+
+                </form>
+            </div>
+
+
+            <div id='features'>
+
+                <ul class='featureContainer'>
+                    <li class='description row' id='desc1'>
+
+
+                        <p class='column desc-img'>&#9728</p>
+
+
+                        <div class='column'>
+                            <h2 class='text'>Lorem ipsum</h2>
+                            <p class='text'>Etiam vulputate rhoncus massa, venenatis fermentum lacus eleifend nec.
+                                Vivamus
+                                libero
+                                magna,
+                                consectetur eget dui vel, faucibus sodales odio.</p>
+                        </div>
+
+
+
+                    </li>
+                    <li class='description row' id='desc2'>
+
+
+                        <p class='column desc-img'>&#9728</p>
+
+                        <div class='column'>
+                            <h2 class='text'>Lorem ipsum</h2>
+                            <p class='text'>Etiam vulputate rhoncus massa, venenatis fermentum lacus eleifend nec.
+                                Vivamus
+                                libero
+                                magna,
+                                consectetur eget dui vel, faucibus sodales odio.</p>
+                        </div>
+                    </li>
+                    <li class='description row' id='desc3'>
+
+
+                        <p class='column desc-img'>&#9728</p>
+
+                        <div class='column'>
+                            <h2 class='text'>Lorem ipsum</h2>
+                            <p class='text'>Etiam vulputate rhoncus massa, venenatis fermentum lacus eleifend nec.
+                                Vivamus
+                                libero
+                                magna,
+                                consectetur eget dui vel, faucibus sodales odio.</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+            <div id='video'>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wvpLjcXU3hY" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+
+            </div>
+
+
+
+            <div id='pricing'>
+
+                <div id='price-plan1' class='prices'>
+                        <div class='price-box'>
+                                <h2 class='price-top'>Product One</h2>
+                                <ul class='price-points'>
+                                        <li><h3>Lorem Ipsum</h3></li>
+                                        <li class='priceLI'>Lorem Ipsum</li>
+                                        <li class='priceLI'>Lorem Ipsum</li>
+                                        <li class='priceLI'>Lorem Ipsum</li>
+                                        <li class='priceLI'>Lorem Ipsum</li>
+                                </ul>
+                                <button class='price-select'>
+                                    SELECT
+                                </button>
+                            </div>
+
+                </div>
+                <div id='price-plan2' class='prices'>
+                    <div class='price-box'>
+                        <h2 class='price-top'>Product One</h2>
+                        <ul class='price-points'>
+                            <li><h3>Lorem Ipsum</h3></li>
+                            <li class='priceLI'>Lorem Ipsum</li>
+                            <li class='priceLI'>Lorem Ipsum</li>
+                            <li class='priceLI'>Lorem Ipsum</li>
+                            <li class='priceLI'>Lorem Ipsum</li>
+                        </ul>
+                        <button class='price-select'>
+                                SELECT
+                            </button>
+                    </div>
+
+                </div>
+                <div id='price-plan3' class='prices'>
+                    <div class='price-box'>
+                        <h2 class='price-top'>Product One</h2>
+                        
+                        <ul class='price-points'>
+                                <li><h3>Lorem Ipsum</h3></li>
+                                <li class='priceLI'>Lorem Ipsum</li>
+                                <li class='priceLI'>Lorem Ipsum</li>
+                                <li class='priceLI'>Lorem Ipsum</li>
+                                <li class='priceLI'>Lorem Ipsum</li>
+                        </ul>
+                        <button class='price-select'>
+                                SELECT
+                            </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div id='footer'>
+            <footer>
+
+                <ul class='foot-content move-over'>
+                    <li class='footnote'>Privacy</li>
+                    <li class='footnote'>Terms</li>
+                    <li class='footnote'>Contact</li>
+                </ul>
+
+                <p class='foot-content move-over' id='footPtag'>Copyright 2018, Lorem Ipsum LTD</p>
+
+            </footer>
+        </div>
+
 
     </body>
 
